@@ -20,8 +20,9 @@ from django.contrib.auth import views as auth_views
 #from django.conf.urls import url,include
 app_name = 'account'
 urlpatterns = [
+    re_path(r'new-login',auth_views.LoginView.as_view(template_name='account/login.html')),
+#    path('accounts/login/', auth_views.LoginView.as_view(template_name='myapp/login.html')),
     re_path(r'^login/$',views.user_login,name="user_login"),
-    re_path(r'',views.user_login,name="user_login"),
 
 
 

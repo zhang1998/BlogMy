@@ -1,4 +1,11 @@
 #+Title 关于整个项目 的 所有 记录  包括学习记录 学完之后 把所有内容整理好
+
+#+TODO: TODO(t) NEXT(n) | DONE(d!/!)
+#+TODO: REPORT(r) BUG(b) KNOWNCAUSE(k) | settled(s) CANCELLED(c@/!)
+#+TODO: PROJECT(p) | DONE(d!/!) CANCELLED(c@/!)
+#+TODO: WAITING(w@/!) DELEGATED(e!) HOLD(h) | CANCELLED(c@/!)
+
+
 * TODO 资料
 1. [[file:~/%E5%AD%A6%E4%B9%A0/cs/python/%E9%A1%B9%E7%9B%AE/django/django.org][自己曾经写过的手册]]  借鉴意义其实不大 但是毕竟写上了
 * TODO 复习 跟着老齐学django
@@ -314,6 +321,8 @@ CLOSED: [2020-10-02 五 10:11]
 *** TODO 第2章[2/6]
 SCHEDULED: <2020-10-03 六 8:00>
 :LOGBOOK:
+CLOCK: [2020-10-03 六 09:27]--[2020-10-03 六 09:34] =>  0:07
+CLOCK: [2020-10-03 六 08:13]--[2020-10-03 六 09:20] =>  1:07
 - State "TODO"       from "DONE"       [2020-10-03 六 08:14]
 - State "DONE"       from "TODO"       [2020-10-03 六 08:13]
 CLOCK: [2020-10-03 六 08:09]--[2020-10-03 六 08:13] =>  0:04
@@ -390,6 +399,11 @@ CLOSED: [2020-10-03 六 09:07]
 **** TODO 2.3 用内置方法实现登录和退出 54
 
 ***** TODO 2.3.1 内置的登录方法 55
+:LOGBOOK:
+- State "TODO"       from "DONE"       [2020-10-03 六 09:57]
+- State "DONE"       from "TODO"       [2020-10-03 六 09:46]
+:END:
+使用的new-login弄的
 1. 查看模板函数
 2. 引入django内置的登录 url
 3. 使用内置的模板html
@@ -397,6 +411,16 @@ CLOSED: [2020-10-03 六 09:07]
 5. 测试
 6. 出现404:解决方案
    1. 修改setting
+   2. 重定向
+
+
+****** 出现了一点问题 怀疑是login的用法不对  看了看document  解决了 呵呵
+
+
+****** settled 登陆后报错
+CLOSED: [2020-10-03 六 10:27]
+按照pdf上的描述 解决了 主要是 需要重启才行....
+以后多多重启
 ***** TODO 2.3.2 判断用户是否登录 58
 ***** TODO 2.3.3 内置的退出方法 59
 ***** TODO 2.3.4 知识点 60
