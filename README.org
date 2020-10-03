@@ -343,14 +343,22 @@ CLOSED: [2020-10-03 六 08:13]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2020-10-03 六 08:13]
 :END:
-***** TODO 2.2.1 创建应用 44
+***** DONE 2.2.1 创建应用 44
+CLOSED: [2020-10-03 六 08:52]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2020-10-03 六 08:52]
+:END:
 1. 创建app
 2. app+
 3. url配置
    1.
    2.
 4. 设置应用
-***** TODO 2.2.2 理解表单类 45
+***** DONE 2.2.2 理解表单类 45
+CLOSED: [2020-10-03 六 08:52]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2020-10-03 六 08:52]
+:END:
 1. 建立表单
 2. shell测试
 3. view
@@ -368,8 +376,16 @@ CLOSED: [2020-10-03 六 08:13]
 
 
 
-***** TODO 2.2.3 登录的视图函数 47
-***** TODO 2.2.4 登录的前端界面 49
+***** DONE 2.2.3 登录的视图函数 47
+CLOSED: [2020-10-03 六 08:52]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2020-10-03 六 08:52]
+:END:
+***** DONE 2.2.4 登录的前端界面 49
+CLOSED: [2020-10-03 六 09:07]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2020-10-03 六 09:07]
+:END:
 ***** TODO 2.2.5 知识点 53
 **** TODO 2.3 用内置方法实现登录和退出 54
 
