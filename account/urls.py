@@ -24,6 +24,7 @@ urlpatterns = [
 #    path('accounts/login/', auth_views.LoginView.as_view(template_name='myapp/login.html')),
     re_path(r'^login/$',views.user_login,name="user_login"),
     re_path(r'^logout/$',auth_views.LogoutView.as_view(template_name='account/logged_out.html'),name='user_logout'),
+    re_path(r'^register/$',views.register,name="user_register"),
 
 
 

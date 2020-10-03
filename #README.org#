@@ -444,23 +444,14 @@ CLOSED: [2020-10-03 六 10:51]
 :END:
 ***** TODO 2.3.4 知识点 60
 **** TODO 2.4 用户注册 62
-:LOGBOOK:
-- State "TODO"       from "DONE"       [2020-10-03 六 13:50]
-- State "DONE"       from "TODO"       [2020-10-03 六 13:50]
-:END:
-***** DONE 2.4.1 简单注册 62
-CLOSED: [2020-10-03 六 13:50]
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2020-10-03 六 13:50]
-:END:
+***** TODO 2.4.1 简单注册 62
 1. 填写表单
    1. forms.Form与forms.ModelFrom的区别
 2. 编写注册的视图函数
 3. 编写html
 4. urls.py中的配置
-****** settled 有点问题显示的不一样
-CLOSED: [2020-10-03 六 13:50]
-原来是  html写的不对 猜对了
+****** BUG 有点问题显示的不一样
+1. [ ] 修改html
 ***** TODO 2.4.2 增加注册内容 65
 ***** TODO 2.4.3 管理新增的注册内容 70
 ***** TODO 2.4.4 知识点 71
